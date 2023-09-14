@@ -1,24 +1,89 @@
-body {
-  width: 600px;
-  background-color: #ff9500;
-  margin: 0 auto;
-  padding: 0 20px 20px 20px;
-}
-h1 {
+/* 重置默认样式 */
+body, h1, h2, p, ul, li {
   margin: 0;
-  padding: 20px 0;
-  color: #00539f;
-  text-shadow: 3px 3px 1px black;
-}
-h1 {
-  font-size: 60px;
-  text-align: center;
+  padding: 0;
 }
 
-p,
-li {
+/* 设置页面背景 */
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+/* 头部样式 */
+header {
+  background-color: #1e90ff;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: 36px;
+  margin-top: 10px;
+}
+
+.game-intro {
+  margin-top: 20px;
+}
+
+.game-intro p {
+  font-size: 18px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #1e90ff;
   font-size: 16px;
-  line-height: 2;
-  letter-spacing: 1px;
-  color: #6d009f;
+  text-decoration: none;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.cta-button:hover {
+  background-color: #1e90ff;
+  color: #fff;
+}
+
+/* 游戏公告样式 */
+#announcement {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#announcement h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#announcement ul {
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+#announcement p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* 底部样式 */
+footer {
+  background-color: #1e90ff;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer p {
+  font-size: 14px;
 }
