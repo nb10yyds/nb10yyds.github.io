@@ -66,20 +66,16 @@ body {
 
 /* 头部样式 */
 header {
-  background-color: #1e90ff;
-  color: #fff;
-  text-align: center;
-  padding: 20px;
-}
+  color: #000000;
 
-header img {
-  max-width: 100%;
-  height: auto;
+  padding: 25px;
+  background: #fff;
 }
 
 h1 {
   font-size: 36px;
   margin-top: 10px;
+  float:left;
 }
 
 .game-intro {
@@ -92,17 +88,18 @@ h1 {
 
 .cta-button {
   display: inline-block;
-  padding: 10px 20px;
-  background-color: #fff;
-  color: #1e90ff;
+  padding: 15px 25px;
+  background-color: #1e90ff;
+  color: #ffffff;
   font-size: 16px;
   text-decoration: none;
   margin-top: 10px;
   border-radius: 5px;
+  float:right;
 }
 
 .cta-button:hover {
-  background-color: #1e90ff;
+  background-color: #0070cc;
   color: #fff;
 }
 

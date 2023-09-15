@@ -13,6 +13,14 @@
     text-decoration: none;
     font-size: 17px;
   }
+
+  .poster {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
   
   /* 改变悬停时链接的颜色 */
   .topnav a:hover {
