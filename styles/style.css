@@ -1,3 +1,57 @@
+/* 为顶部导航添加黑色背景颜色 */
+.topnav {
+  background-color: #1e90ff;
+  overflow: hidden;
+}
+
+/* 为导航栏内的链接设置样式 */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* 改变悬停时链接的颜色 */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* 添加一个活动类以突出显示当前页面 */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* 隐藏应该在小屏幕上打开和关闭 topnav 的链接 */
+.topnav .icon {
+  display: none;
+}
+/* 为导航栏内的链接设置样式 */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* 改变悬停时链接的颜色 */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* 为活动/当前链接添加颜色 */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
 /* 重置默认样式 */
 body, h1, h2, p, ul, li {
   margin: 0;
