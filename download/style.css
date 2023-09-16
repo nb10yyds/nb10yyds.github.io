@@ -33,6 +33,15 @@
     background-color: #4CAF50;
     color: white;
   }
+
+  div {
+    position: relative;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 /* 下载页面样式 */
 #download {
     background-color: #fff;
