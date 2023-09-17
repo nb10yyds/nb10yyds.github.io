@@ -42,6 +42,19 @@
     max-width: 100%;
     height: auto;
   }
+
+  /* 重置默认样式 */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* 设置页面背景 */
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
 /* 下载页面样式 */
 #download {
     background-color: #fff;

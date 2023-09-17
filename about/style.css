@@ -33,6 +33,19 @@
     background-color: #4CAF50;
     color: white;
   }
+
+  /* 重置默认样式 */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* 设置页面背景 */
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
   
   img {
     max-width: 100%;
