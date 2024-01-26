@@ -1,3 +1,4 @@
+filter: grayscale(100%);
 /* 为顶部导航添加黑色背景颜色 */
   .topnav {
     background-color: #1e90ff;
